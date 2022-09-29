@@ -1,6 +1,5 @@
-##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
 ---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/atbye/atbye-pwa.atbye.com/
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
