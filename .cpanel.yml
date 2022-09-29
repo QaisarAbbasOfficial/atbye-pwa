@@ -2,5 +2,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/atbye/atbye-pwa.atbye.com
+    - export DEPLOYPATH=/home/atbye/atbye-pwa.atbye.com/
     - /bin/cp index.html $DEPLOYPATH
